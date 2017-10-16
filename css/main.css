@@ -1,0 +1,50 @@
+body {
+font-family: 'Abel', sans-serif;
+}
+
+img, embed, object, video {
+  max-width: 100%
+}
+
+footer {
+  text-align: center;
+}
+
+hr.style1{
+	border-top: 3px double #8c8b8b;
+}
+
+[class*="zocial-"]:before {
+  color: grey;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  width: 2em;
+}
+
+a:hover [class*="zocial-"]:before {
+  color: #3d85c6;
+}
+
+a {
+  color: #4183C4;
+  font-weight: 300;
+  text-decoration: none;
+  padding: 1.5em inherit;
+}
+
+a:hover {
+  color: #3d85c6;
+  text-decoration: underline;
+}
+
+div#social a {
+  margin: 0 2em 0 0;
+}
+
+div#social a:last-of-type {
+  margin: 0;
+}
+
+div#social {
+  line-height: 2em;
+}
